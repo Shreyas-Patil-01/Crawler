@@ -1,4 +1,4 @@
-# SCRAWLER
+# CRAWLER
 ## Newspaper Scraping Using Scrapy
 
 This repository contains a web scraping tool built using Scrapy to scrape news articles from the Livemint website. It extracts article URLs, titles, author details, content and published dates and stores the data in a JSON file.
@@ -29,7 +29,7 @@ This project uses Scrapy to scrape news articles from Livemint. It follows categ
 
 Below is the visual workflow of the Scrapy process for scraping the news articles:
 
-![Scrapy Workflow](https://github.com/Shreyas-Patil-01/Scrawler/blob/main/News_scraper/WorkFlow.png)
+![Scrapy Workflow](https://github.com/Shreyas-Patil-01/Crawler/blob/main/News_scraper/WorkFlow.png)
 
 This diagram outlines the steps from starting with the homepage, following category links, parsing articles, and saving them to a JSON file.
 
@@ -40,7 +40,7 @@ Make sure you have Python 3.x and Scrapy installed. You can install Scrapy via p
 
 ```bash
 pip install scrapy
-git clone https://github.com/Shreyas-Patil-01/Scrawler.git
+git clone https://github.com/Shreyas-Patil-01/Crawler.git
 cd Scrawler
 scrapy runspider spider.py
 ```
@@ -62,15 +62,15 @@ scrapy runspider spider.py
   "published_date": "20 Sep 2024"
 }
 
-![Scawler_running_output](https://github.com/Shreyas-Patil-01/Scrawler/blob/main/Output.png)
+![Scawler_running_output](https://github.com/Shreyas-Patil-01/Crawler/blob/main/Output.png)
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
--Fork the repository.
--Create a new feature branch.
--Commit your changes.
--Push to the branch.
--Open a pull request.
+### Fork the repository.
+### Create a new feature branch.
+### Commit your changes.
+### Push to the branch.
+### Open a pull request.
 
 Feel free to open issues or submit pull requests for improving the scraper or adding new features.
